@@ -21,7 +21,7 @@ if __name__ == '__main__':
     app.setWindowIcon(icon)
 
     # info
-    info = Info('25.53 ^ 5')
+    info = Info('-')
     window.add_widget(info)
 
     # display
@@ -29,7 +29,7 @@ if __name__ == '__main__':
     window.add_widget(display)
 
     # grid
-    buttons_grid = ButtonsGrid(display)
+    buttons_grid = ButtonsGrid(display, info)
     window.add_layout(buttons_grid)
 
     # executes the app
