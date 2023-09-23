@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QLabel, QWidget
 from PySide6.QtCore import Qt
-from src.components.variables import SMALL_FONT_SIZE
+from src.utils.variables import SMALL_FONT_SIZE
 
 
 class Info(QLabel):

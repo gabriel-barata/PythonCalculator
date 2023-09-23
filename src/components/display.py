@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QLineEdit
-from src.components.variables import BIG_FONT_SIZE, DEFAULT_MARGIN, MINIMUM_WIDTH
+from src.utils.variables import BIG_FONT_SIZE, DEFAULT_MARGIN, MINIMUM_WIDTH
 from PySide6.QtCore import Qt
 
 

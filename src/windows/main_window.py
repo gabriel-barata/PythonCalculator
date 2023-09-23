@@ -19,3 +19,6 @@ class MainWindow(QMainWindow):
 
     def add_widget(self, widget: QWidget):
         self.layout.addWidget(widget)
+
+    def add_layout(self, layout):
+        self.layout.addLayout(layout)

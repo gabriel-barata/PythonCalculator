@@ -1,16 +1,16 @@
-from src.components.variables import PRIMARY_COLOR, SEC_COLOR, TH_COLOR
+from src.utils.variables import PRIMARY_COLOR, SEC_COLOR, TH_COLOR
 import qdarktheme
 
 qss = f"""
-    PushButton[cssClass="SpecialButton"] {{
+    QPushButton[cssClass="SpecialButton"] {{
         color: #fff;
         background: "{PRIMARY_COLOR}";
     }}
-    PushButton[cssClass="SpecialButton"]:hover {{
+    QPushButton[cssClass="SpecialButton"]:hover {{
         color: #fff;
         background: {SEC_COLOR};
     }}
-    PushButton[cssClass="SpecialButton"]:pressed {{
+    QPushButton[cssClass="SpecialButton"]:pressed {{
         color: #fff;
         background: {TH_COLOR};
     }}
